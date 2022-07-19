@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        h2{
+            text-align: center;
+            color: blue;
+            font-family: "DejaVu Sans";
+        }
+        body{
+            background-image: url("images/mike.jpeg");
+            background-size: 900px;
+        }
+        form{
+            text-align: center;
+            color: blue;
+        }
+        a{
+            border-right: solid red 2px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+<a href="Home.html">Home</a>
+<a href="Contact%20us.html">Contact us</a>
+<a href="About%20us.html">About us</a>
+<h2>Register Here</h2>
+<form action="">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" placeholder="Input your first name"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" placeholder="Input your last name"><br>
+    <label for="dor">Date of Registration</label><br>
+    <input type="date" id="dor"><br>
+    <label for="ctr">Category</label><br>
+    <select name="Category" id="ctr" >
+        <option value="Adult">Adult</option>
+        <option value="Old">Old</option>
+        <option value="Young">Young</option>
+        <option value="Kid">Kid</option>
+    </select><br>
+    <label for="gndr">Gender</label><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender"><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Input your email"><br>
+    <label for="pass">Password</label>
+    <input type="text" id="pass" placeholder="Input your password"><br>
+    <label for="img">Upload Image</label><br>
+    <input type="file" id="img" placeholder="Upload your Image"><br>
+    <input type="submit" value="Register" >
+
+
+    
+
+
+</form>
+
+</body>
+</html>
